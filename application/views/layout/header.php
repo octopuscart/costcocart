@@ -58,8 +58,7 @@
         <!--LOADER--> 
         <div id="loader">
             <div class="position-center-center">
-                <img src="<?php echo base_url(); ?>assets/theme/images/crown.gif"  style="    height: 50px;">
-                <!--<div class="loader"></div>-->
+                <div class="loader"></div>
             </div>
         </div>
 
@@ -262,6 +261,5 @@
                         </nav>
                     </div>
                 </div>
-                <div class="goldline padding-bottom-30"></div>
             </header>
             <!-- End Header --> 

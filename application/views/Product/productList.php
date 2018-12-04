@@ -194,8 +194,8 @@ $image2 = "";
 
                                     <li>
                                         <a href="<?php echo site_url("Product/ProductList/" . $custom_id . "/" . $value['id']); ?>">
-                                            <i class="flaticon-left-arrow"></i>
-                                            <?php echo $value['category_name']; ?>
+                                            
+                                            <?php echo $value['category_name']; ?> <i class="flaticon-right-arrow"></i>
 
                                             <?php
                                             if (count($subcategories)) {
@@ -316,9 +316,9 @@ $image2 = "";
                                     switch ($custom_id) {
                                         case "1":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/shirt/output/{{product.folder}}/shirtFoldm0001.png" alt="product">
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/shirt/output/{{product.folder}}/shirt_model10001.png" alt="product">
 
-                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/shirt/output/{{product.folder}}/shirt_model10001.png);    background-size: 96%;
+                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/shirt/output/{{product.folder}}/shirtFoldm0001.png);    background-size: 96%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
 

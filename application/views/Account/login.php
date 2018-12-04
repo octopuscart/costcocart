@@ -3,7 +3,7 @@ $this->load->view('layout/header');
 ?>
 <!-- Inner Page Banner Area Start Here -->
 
-<section class="sub-bnr" data-stellar-background-ratio="0.5" style="margin-bottom: 10px;">
+<section class="sub-bnr" data-stellar-background-ratio="0.5" >
     <div class="position-center-center">
         <div class="container">
             <h4>Login/Registration</h4>
@@ -20,7 +20,7 @@ $this->load->view('layout/header');
 
 <!-- Inner Page Banner Area End Here -->
 <!-- Login Registration Page Area Start Here -->
-<div class="login-registration-page-area" style="padding: 20px 0;">
+<div class="login-registration-page-area" style="padding: 20px 0;background: url(<?php echo base_url(); ?>assets/theme/images/back31.jpg);    background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -53,7 +53,7 @@ $this->load->view('layout/header');
                 <?php
             }
             ?>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="background: wheat;padding-bottom: 15px;">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="background: #fffefb;padding-bottom: 15px;">
                 <div class="login-registration-field">
                     <h2 class="cart-area-title">Login</h2>
                     <form method="post" action="#">
@@ -68,7 +68,7 @@ $this->load->view('layout/header');
                 </div>
             </div>
             <div class="col-md-2"></div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="background: wheat;padding-bottom: 15px;">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="background: #fffefb;;padding-bottom: 15px;">
                 <div class="login-registration-field">
                     <h2 class="cart-area-title">Register</h2>
                     <form action="#" method="post">

@@ -1,9 +1,9 @@
 
 
 .btn{
-    background: #D1913C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*    background: #D1913C;   fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #FFD194, #D1913C);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -24,6 +24,12 @@
 
 
 }
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+
 
 .silvergraditant{
     background: #8e9eab;  /* fallback for old browsers */
@@ -70,7 +76,7 @@
 
 .header  .nav>li>a:focus, .header .nav>li>a:hover {
     /* background: linear-gradient(to right, #eef2f3, #8e9eab); */
-    background: url(https://img00.deviantart.net/9087/i/2012/169/7/8/golden_swirls_border_png_by_melissa_tm-d540ffo.png);
+    /*background: url(https://img00.deviantart.net/9087/i/2012/169/7/8/golden_swirls_border_png_by_melissa_tm-d540ffo.png);*/
     background-size: 193px;
     background-position: -5px 55px;
     background-repeat: no-repeat;
@@ -107,8 +113,8 @@
 }
 
 .goldline2{
-    background: url("../images/gold_line2.png");
-    background: url(../images/gold_line2.png);
+    /*background: url("../images/gold_line2.png");*/
+    /*background: url(../images/gold_line2.png);*/
     height: 28px;
     width: 100%;
     float: left;
@@ -146,7 +152,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    color: #b28c06;
+   
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
@@ -176,118 +182,15 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
 }
 
-heading-block hr {
-    width: 85px;
-    /* content: ""; */
-    height: 50px;
-    background: url(../images/goldline_6.png);
-    border: none;
-    margin: 20px auto;
-    background-size: contain;
-    margin-bottom: 0px;
-    position: relative;
-    margin-top: 8px;
-}
 
-
-.footer-shop h4:before {
-    position: absolute;
-    bottom: -18px;
-    height: 14px;
-    left: 0px;
-    width: 30px;
-    margin: 0 auto;
-    background: none;
-    content: "";
-    background-size: cover;
-}
-.footer-shop h4:after {
-    position: absolute;
-    bottom: -20px;
-    height: 24px;
-    left: 0px;
-    width: 100%;
-    margin: 0 auto;
-    background: url(../images/gold_line11.png);
-    /* content: ""; */
-    background-size: contain;
-    float: left;
-    background-repeat: no-repeat;
-    background-position: center
-}
-
-.footer-shop h4 {
-    font-size: 20px;
-    color: #fff;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    font-weight: 500;
-    position: relative;
-    text-align: center;
-    color: #926400;
-}
-
-footer p {
-    color: rgba(255,255,255,0.8);
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-}
-
-footer .links-footer li a {
-    color: rgba(255,255,255,0.8);
-    font-size: 13px;
-    line-height: 24px;
-    font-weight: 500;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
-
-footer .social-links{
-    float:right;
-}
-
-footer .social-links a {
-    margin-left: 6px;
-    padding-top: 5px;
-    float: left;
-    padding: 10px;
-    border: 1px solid #f5bc71;
-}
 
 footer {
-    background: #161409;
+    background: #262a39;
     padding: 50px 0;
 }
 
-.heading-block h3:after {
-    bottom: -15px;
-    height: 25px;
-    left: 0px;
-    width: 50px;
-    background: #000000;
-    content: "";
-    right: 0px;
-    margin: 0 auto;
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    background: url(../images/gold_line11.png);
-    /* content: ""; */
-    background-size: contain;
-    float: left;
-    background-repeat: no-repeat;
-    background-position: center
-}
-.heading-block h3:before {
-    bottom: -15px;
-    height: 25px;
-    left: 0px;
-    width: 50px;
-    background: none;
 
-}
+
 
 
 .shop-artical .btn {
@@ -320,34 +223,6 @@ hr {
     border-top: 5px solid #b28c06;
 }
 
-.side-bar .heading h6:before  {
-    position: absolute;
-    bottom: -20px;
-    height: 24px;
-    left: 0px;
-    width: 100%;
-    margin: 0 auto;
-    background: url(../images/gold_line11.png);
-    /* content: ""; */
-    background-size: contain;
-    float: left;
-    background-repeat: no-repeat;
-
-}
-.side-bar .heading h6:after  {
-    position: absolute;
-    bottom: -20px;
-    height: 24px;
-    left: 0px;
-    width: 100%;
-    margin: 0 auto;
-    background:none;
-}
-
-
-.side-bar .heading h6{
-    color: #b28c06;
-}
 
 .spacial_text {
     height: 355px;
@@ -355,10 +230,9 @@ hr {
 
 .sub-bnr {
     min-height: 45px;
-    background: #000000;
+    background: #252938;
     position: relative;
     z-index: 1;
-    margin-top: 25px;
 }
 
 .cart-img img {
@@ -407,7 +281,7 @@ body::-webkit-scrollbar {
 }
 
 header .is-sticky .sticky .navbar li a {
-    padding: 0;
+    /*padding: 0;*/
 }
 
 .desing_view_button{
