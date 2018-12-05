@@ -46,7 +46,7 @@ $this->load->view('layout/header');
                          data-endelementdelay="0.1" 
                          data-endspeed="300" 
                          data-captionhidden="on"
-                         style="color: #fff; font-size: 25px; text-transform: uppercase; font-weight: bold;  letter-spacing:3px;"> Worlds Best Italian Fabrics </div>
+                         style="color: #fff; font-size: 25px; text-transform: uppercase; font-weight: bold;  letter-spacing:3px;"> EXPERTISE IN CRAFTING SARTORIAL ELEGANCE </div>
 
                     <!-- Layer -->
                     <div class="tp-caption sft tp-resizeme rs-parallaxlevel-4" 
@@ -65,11 +65,66 @@ $this->load->view('layout/header');
                 </li>
 
              
+ <!-- Slider 3 -->
+                <li data-transition="random" data-slotamount="7"> 
+                    <img src="<?php echo base_url(); ?>assets/theme/images/slides/slide12.jpg" >                       <!-- Layer -->
+                    <div class="tp-caption font-montserrat customin tp-resizeme rs-parallaxlevel-4" 
+                         data-x="center" 
+                         data-hoffset="0" 
+                         data-y="center" 
+                         data-voffset="-100"
+                         data-speed="700" 
+                         data-start="1000" 
+                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+                         data-easing="Back.easeOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         data-captionhidden="on"
+                         style="color: #fff; font-size: 60px; text-transform: uppercase; font-weight: 900; letter-spacing:3px;"> HAND MADE AND HAND CUT </div>
 
+                    <!-- Layer -->
+                    <div class="tp-caption sfb tp-resizeme  font-playfair text-center rs-parallaxlevel-4" 
+                         data-x="center" 
+                         data-hoffset="0" 
+                         data-y="center" 
+                         data-voffset="-20"
+                         data-speed="700" 
+                         data-start="1700" 
+                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+                         data-easing="Back.easeOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         data-captionhidden="on"
+                         style="color: #fff; font-size: 18px; line-height:36px; font-weight: 500; letter-spacing:0px;">Give order to be made<br></div>
+
+                    <!-- Layer -->
+                    <div class="tp-caption sfb tp-resizeme rs-parallaxlevel-4" 
+                         data-x="center" 
+                         data-hoffset="0" 
+                         data-y="center"
+                         data-voffset="100"
+                         data-speed="700" 
+                         data-start="2400"
+                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+                         data-easing="Back.easeOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         data-captionhidden="on"
+                         style="z-index: 10;"> <a href="#." class="btn">Shop Now</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" class="btn btn-1">Discover</a> </div>
+                </li>
 
                 <!-- Slider 4 -->
                 <li data-transition="random" data-slotamount="7"> 
-                    <img src="<?php echo base_url(); ?>assets/theme/images/slides/slider5.jpg" >                    <!-- Layer -->
+                    <img src="<?php echo base_url(); ?>assets/theme/images/slides/slide13.jpg" >                    <!-- Layer -->
                     <div class="tp-caption font-montserrat customin tp-resizeme rs-parallaxlevel-4" 
                          data-x="center" 
                          data-hoffset="0" 
@@ -278,11 +333,11 @@ $this->load->view('layout/header');
                         <div class="item">
                             <article class="shop-artical"> 
                                 <div class="imagblock">
-                                    <img class="img-responsive" src="http://bespoketailorsadmin.costcointernational.com/assets_main/productimages/<?php echo $value['file_name']; ?>" alt="" >
+                                    <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/<?php echo $value["folder"];?>/s1_master_style60001.png" alt="" >
                                 </div>
                                 <div class="item-hover"> <a href="#." class="btn">add to cart</a>  </div>
                             </article>
-                            <div class="info"> <a href="#.">Winkle Free Cotton </a> <span class="price">US$ 1010.00</span> </div>
+                            <div class="info"> <a href="#."><?php echo $value['short_description'];?></a> <span class="price">{{<?php echo $value['price'];?>|currency:" "}}</span> </div>
                         </div>
                         <?php
                     }
