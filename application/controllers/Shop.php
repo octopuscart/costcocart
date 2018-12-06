@@ -123,7 +123,7 @@ class Shop extends CI_Controller {
                 $this->email->from(email_bcc, $sendername);
                 $this->email->to($this->input->post('email'));
                 $this->email->bcc(email_bcc);
-                $subjectt = "Bespoke Tailors Appointment : ".$appointment['select_date']." (".$appointment['select_time'].")";
+                $subjectt = "Bespoke Tailors Appointment : " . $appointment['select_date'] . " (" . $appointment['select_time'] . ")";
                 $orderlog = array(
                     'log_type' => 'Appointment',
                     'log_datetime' => date('Y-m-d H:i:s'),
@@ -279,6 +279,49 @@ class Shop extends CI_Controller {
                 # $this->db->delete('products'); //
             }
         }
+    }
+
+    public function sendMailChimpMail() {
+
+        $apikey = 'a6d3c0da6f6e4eb721066013f5337785-us19';
+
+        $to_emails = array('octopuscartltd@gmail.com', 'tailor123hk@gmail.com');
+        $to_names = array('Costcokart', 'sales@costcokart.com');
+
+        $message = array(
+            'html' => 'Hello, this is the <b>Test Mail</b>',
+            'text' => 'Testing of bulkmailing.',
+            'subject' => 'Test subject',
+            'from_name' => 'Costcokart',
+            'from_email' => 'sales@costcokart.com',
+            'to_email' => $to_emails,
+            'to_name' => $to_names
+        );
+
+        $tags = array('WelcomeEmail');
+
+        $params = array(
+            'apikey' => $apikey,
+            'message' => $message,
+            'track_opens' => true,
+            'track_clicks' => false,
+            'tags' => $tags
+        );
+
+        $url1 = "https://us19.api.mailchimp.com/3.0/SendEmail";
+        $url = "http://us19.sts.mailchimp.com/1.0/SendEmail";
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url1 . '?' . http_build_query($params));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $result = curl_exec($ch);
+        echo $result;
+        curl_close($ch);
+
+        $data = json_decode($result);
+        print_r($data);
+      //  echo "Status = " . $data->status . "\n";
     }
 
 }

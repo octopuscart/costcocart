@@ -35,6 +35,19 @@
     <img src="<?php echo custome_image_server; ?>/shirt/output/{{screencustom.productobj.folder}}/{{img}}" class="fixpos animated"  ng-repeat="img in selecteElements[fab.product_id]['Cuff & Sleeve'].elements" >
     <img src="<?php echo custome_image_server; ?>/shirt/overlay/{{img}}" class="fixpos animated"  ng-repeat="img in selecteElements[fab.product_id]['Cuff & Sleeve'].overlay" >
 
+    <div ng-switch="selecteElements[fab.product_id]['Stitching'].ptype">
+        <div ng-switch-when="0">
+        </div>
+        <div ng-switch-when="1">
+            <img src="<?php echo custome_image_server; ?>/shirt/overlay/{{img}}" class="fixpos animated" ng-repeat="img in selecteElements[fab.product_id]['Cuff & Sleeve'].stitching14"  >
+        </div>
+        <div ng-switch-when="2">
+            <img src="<?php echo custome_image_server; ?>/shirt/overlay/{{img}}" class="fixpos animated" ng-repeat="img in selecteElements[fab.product_id]['Cuff & Sleeve'].stitching38"  >
+        </div>
+    </div>
+
+
+
     <img src="<?php echo custome_image_server; ?>/shirt/hole_thread/{{screencustom.productobj.folder}}/{{img}}" class="fixpos animated" ng-repeat="img in selecteElements[fab.product_id]['Cuff & Sleeve'].button_hole"  >
 
 
