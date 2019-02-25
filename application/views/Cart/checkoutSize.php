@@ -330,13 +330,8 @@ $this->load->view('layout/header');
 
                                                 <div class="contact-us-right">
                                                     <b>Send to:</b>
-                                                    <br/>
-
-                                                    Shop A, 2/F Entertainment Building,<br/>
-                                                    30 Queen’s Road, Central, Hong Kong
-                                                    <br/>
-                                                    <i class="fa fa-envelope"></i> sales@royaltailor.hk<br/>
-                                                    <i class="fa fa-phone"></i>  +(852) 2655 9778 
+                                                    
+                                                    <i class="fa fa-envelope"></i> sales@costcokart.com<br/>
 
                                                 </div>
                                                 </p>
