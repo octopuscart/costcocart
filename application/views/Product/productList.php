@@ -330,7 +330,7 @@ $image2 = "";
                                             break;
                                         case "2":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
                                             <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
@@ -342,7 +342,7 @@ $image2 = "";
                                             break;
                                         case "5":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
                                             <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
@@ -354,7 +354,7 @@ $image2 = "";
                                             break;
                                         case "6":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
                                             <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
@@ -367,7 +367,7 @@ $image2 = "";
                                         
                                         case "7":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
                                             <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
@@ -392,7 +392,7 @@ $image2 = "";
                                             break;
                                         case "4":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
 
                                             <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
