@@ -164,11 +164,11 @@ $image2 = "";
 
     <!-- Shop Content -->
     <div class="shop-content pad-t-b-60">
-        <div class="container">
+        <div class="container" style="width: 90%">
             <div class="row"> 
 
                 <!-- Shop Side Bar -->
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="side-bar">
                         <div class="search">
                             <form>
@@ -282,7 +282,7 @@ $image2 = "";
                 </div>
 
                 <!-- Main Shop Itesm -->          
-                <div class="col-md-9"> 
+                <div class="col-md-10"> 
                     <button class="btn btn-default btn-small pull-right" style="    position: absolute;
                             right: 10px;
                             top: -45px;" data-toggle="modal" data-target="#productcustome">View Custom Cart</button>
@@ -330,8 +330,8 @@ $image2 = "";
                                             break;
                                         case "2":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
-                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/sleeve_buttons60001.png);    background-size: 139%;
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
                                                 <a href="<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/{{product.product_id}}" class="btn" style="font-size: 9px;" title="Customize this fabric">Design Single
@@ -342,8 +342,8 @@ $image2 = "";
                                             break;
                                         case "5":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
-                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/sleeve_buttons60001.png);    background-size: 139%;
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
                                                 <a href="<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/{{product.product_id}}" class="btn" style="font-size: 9px;" title="Customize this fabric">Design Single
@@ -354,8 +354,8 @@ $image2 = "";
                                             break;
                                         case "6":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
-                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/sleeve_buttons60001.png);    background-size: 139%;
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
                                                 <a href="<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/{{product.product_id}}" class="btn" style="font-size: 9px;" title="Customize this fabric">Design Single
@@ -367,8 +367,8 @@ $image2 = "";
                                         
                                         case "7":
                                             ?>
-                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
-                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/sleeve_buttons60001.png);    background-size: 139%;
+                                            <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/s1_master_style60001.png" alt="product">
+                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
                                                 <a href="<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/{{product.product_id}}" class="btn" style="font-size: 9px;" title="Customize this fabric">Design Single
@@ -394,7 +394,7 @@ $image2 = "";
                                             ?>
                                             <img class="img-responsive" src="<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/fullsuits1.jpg" alt="product">
 
-                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/sleeve_buttons60001.png);    background-size: 139%;
+                                            <div class="item-hover" style="background: url(<?php echo custome_image_server; ?>/jacket/output/{{product.folder}}/style_buttons.png);    background-size: 139%;
                                                  background-color: white;
                                                  background-repeat: no-repeat;"> 
                                                 <a href="<?php echo site_url("Product/customizationRedirect/") ?><?php echo $custom_id; ?>/{{product.product_id}}" class="btn" style="font-size: 9px;" title="Customize this fabric">Design Single
