@@ -5599,7 +5599,7 @@ header.menu-left .nav {
 .shop-artical .btn {
 	position: absolute;
 	bottom: 0%;
-	left: 40px;
+	left: 0px;
 	padding: 10px 25px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;

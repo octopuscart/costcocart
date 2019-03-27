@@ -196,7 +196,7 @@ footer {
 .shop-artical .btn {
     position: absolute;
     bottom: 0%;
-    left: 62px;
+    /*left: 62px;*/
 }
 
 .light-gray-bg article .imagblock {
