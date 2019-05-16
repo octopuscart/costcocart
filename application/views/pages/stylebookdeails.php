@@ -54,7 +54,7 @@ function truncate($str, $len) {
 
                     <!--post content-->
                     <figure>
-                        <img src="<?php echo base_url(); ?>assets/images/styletips/<?php echo $styleobj->image; ?>" alt="" class="r_corners m_bottom_20" >
+                        <img src="https://admin.costcokart.com/assets/blog_images/<?php echo $styleobj->image; ?>" alt="" class="r_corners m_bottom_20" >
 
                         <figcaption>
                             <h3 class="fw_light color_dark"><?php echo $styleobj->title; ?></h3>
@@ -96,7 +96,7 @@ function truncate($str, $len) {
 
                             <article class="clearfix m_bottom_10 m_xs_bottom_20 border_grey r_corners">
                                 <a href="<?php echo site_url("styleTips/" . $value['id'] . "/" . $value['title']) ?>" class="d_block r_corners wrapper f_left m_right_20 m_md_right_10 m_xs_right_20 f_sm_none m_sm_bottom_10 d_sm_inline_b d_xs_block f_xs_left m_xs_bottom_0">
-                                    <img src="<?php echo base_url(); ?>assets/images/styletips/blank.png" alt="" style="background: url(<?php echo base_url(); ?>assets/images/styletips/<?php echo $value['image']; ?>);background-size:cover;    background-position: center;">
+                                    <img src="<?php echo base_url(); ?>assets/images/styletips/blank.png" alt="" style="background: url(https://admin.costcokart.com/assets/blog_images/<?php echo $value['image']; ?>);background-size:cover;    background-position: center;">
                                 </a>
                                 <a href="<?php echo site_url("styleTips/" . $value['id'] . "/" . $value['title']) ?>" class="color_dark d_block lh_medium m_bottom_5" style="width: 150px;
                                    white-space: nowrap;

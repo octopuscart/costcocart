@@ -49,6 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@\=';
 $route['default_controller'] = 'Shop';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
